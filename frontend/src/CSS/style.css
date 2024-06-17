@@ -1,0 +1,12 @@
+.home-button:hover,
+.search-icon:hover,
+.explore-icon:hover,
+.reels-icon:hover,
+.messenger-icon:hover,
+.notifications-icon:hover,
+.create-icon:hover,
+.profile-icon:hover,
+.more-icon:hover{
+    background-color: #f4f4f4;
+
+}
