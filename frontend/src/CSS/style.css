@@ -1,3 +1,25 @@
+body{
+    background-color: #fff;
+}
+.left-sidebar{
+    border: 1px solid #c2bfbf;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+}
+
+.home-button,
+.search-icon,
+.explore-icon,
+.reels-icon,
+.messenger-icon,
+.create-icon,
+.profile-icon,
+.more-icon{
+    width: 205px;
+}
+
+
 .home-button:hover,
 .search-icon:hover,
 .explore-icon:hover,
@@ -9,4 +31,19 @@
 .more-icon:hover{
     background-color: #f4f4f4;
 
+}
+
+.daysSinceUpload{
+    color: #b5afaf;
+}
+
+.profile-container{
+    border: 1px solid #c2bfbf;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+.comment-section::placeholder{
+    color: black;
 }
