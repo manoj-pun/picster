@@ -2,6 +2,7 @@ import React from 'react'
 import LeftSideBar from '../../Components/LeftSidebar.jsx'
 import MiddleContent from '../../Components/MiddelContent.jsx'
 import RightSideBar from '../../Components/RightSidebar.jsx'
+import Profile from '../../Components/Profile.jsx'
 
 
 const Home = () => {
@@ -15,6 +16,9 @@ const Home = () => {
       </div>
       <div className="col-span-4">
        <RightSideBar/>
+      </div>
+      <div>
+        <Profile/>
       </div>
     </div>
   )

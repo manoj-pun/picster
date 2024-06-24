@@ -47,3 +47,46 @@ body{
 .comment-section::placeholder{
     color: black;
 }
+
+.profile-header{
+    border: 1px solid #c2bfbf;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+.follow-button{
+    padding: 4px 16px;
+    border-radius: 6px;
+    background-color:   rgb(0, 172, 240);
+    margin-left: 8px;
+    border: none;
+    color: white;
+    font-weight: 500;
+}
+
+.follow-button:hover{
+    background-color: rgb(0, 156, 254);
+}
+
+.message-button{
+    padding: 4px 16px;
+    border-radius: 6px;
+    background-color:   #b5b2b2;
+    margin-left: 8px;
+    border: none;
+    color: black;
+    font-weight: 500;
+}
+
+.message-button:hover{
+    background-color: #a5a3a3;
+}
+
+.media-gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    row-gap: 5px;
+} 
+
