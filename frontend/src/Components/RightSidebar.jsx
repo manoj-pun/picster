@@ -31,7 +31,7 @@ const RightSidebar = () => {
             <p className="text-sm text-gray-500">Suggested for you</p>
           </div>
         </div>
-        <span className=" cursor-pointer">Follow</span>
+        <span className=" cursor-pointer text-blue-600">Follow</span>
       </div>
 
       <div className="flex items-center justify-between mb-3">
@@ -42,7 +42,7 @@ const RightSidebar = () => {
             <p className="text-sm text-gray-500">Suggested for you</p>
           </div>
         </div>
-        <span className=" cursor-pointer">Follow</span>
+        <span className=" cursor-pointer text-blue-600">Follow</span>
       </div>
 
       <div className="flex items-center justify-between mb-3">
@@ -53,7 +53,7 @@ const RightSidebar = () => {
             <p className="text-sm text-gray-500 ">Suggested for you</p>
           </div>
         </div>
-        <span className=" cursor-pointer">Follow</span>
+        <span className=" cursor-pointer text-blue-600">Follow</span>
       </div>
 
       <div className="flex items-center justify-between mb-3">
@@ -64,7 +64,7 @@ const RightSidebar = () => {
             <p className="text-sm text-gray-500">Suggested for you</p>
           </div>
         </div>
-        <span className=" cursor-pointer">Follow</span>
+        <span className=" cursor-pointer text-blue-600">Follow</span>
       </div>
 
       <div className="flex items-center justify-between mb-3">
@@ -75,7 +75,7 @@ const RightSidebar = () => {
             <p className="text-sm text-gray-500">Suggested for you</p>
           </div>
         </div>
-        <span className=" cursor-pointer">Follow</span>
+        <span className=" cursor-pointer text-blue-600">Follow</span>
       </div>
 
     </div>

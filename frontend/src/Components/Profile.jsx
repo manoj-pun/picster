@@ -18,7 +18,7 @@ const Profile = () => {
         <div className='user-profile ml-[350px] mr-[130px]'>
             <div className="profile-header flex mt-24 mb-16">
                 <div className='profile-picture ml-10'>
-                    <img src={images} alt="" className='w-40 h-40 rounded-full object-cover '/>
+                    <img src={images} alt="" className='w-40 h-40 rounded-full object-cover cursor-pointer'/>
                 </div>
                 <div className="user-profile-section ml-16 mt-[-45px] p-2 font-sans">
                     <div className="user-header-actions flex items-center mb-4">
@@ -30,10 +30,10 @@ const Profile = () => {
                         <span className='font-semibold'>20</span>
                         <span className='ml-1 mr-8'>posts</span>
 
-                        <span className='font-semibold'>300</span>
+                        <span className='font-semibold cursor-pointer'>300</span>
                         <span className='ml-1 mr-8'>followers</span>
 
-                        <span className='font-semibold'>150</span>
+                        <span className='font-semibold cursor-pointer'>150</span>
                         <span className='ml-1 mr-8'>following</span>
                     </div>
                     <div className="profile-name mb-4">
@@ -46,32 +46,27 @@ const Profile = () => {
             </div>
             <div className="media-gallery">
                 <div>
-                    <img src={profile1} alt="" className='w-[320px] h-[250px]'/>
+                    <img src={profile1} alt="" className='w-[350px] h-[280px]'/>
                 </div>
                 <div>
-                    <img src={profile1} alt="" className='w-[320px] h-[250px]'/>
+                    <img src={profile1} alt="" className='w-[350px] h-[280px]'/>
                 </div>
                 <div>
-                    <img src={profile1} alt="" className='w-[320px] h-[250px]'/>
+                    <img src={profile1} alt="" className='w-[350px] h-[280px]'/>
                 </div>
                 <div>
-                    <img src={profile1} alt="" className='w-[320px] h-[250px]'/>
+                    <img src={profile1} alt="" className='w-[350px] h-[280px]'/>
                 </div>
                 <div>
-                    <img src={profile1} alt="" className='w-[320px] h-[250px]'/>
+                    <img src={profile1} alt="" className='w-[350px] h-[280px]'/>
                 </div>
                 <div>
-                    <img src={profile1} alt="" className='w-[320px] h-[250px]'/>
+                    <img src={profile1} alt="" className='w-[350px] h-[280px]'/>
                 </div>
                 <div>
-                    <img src={profile1} alt="" className='w-[320px] h-[250px]'/>
+                    <img src={profile1} alt="" className='w-[350px] h-[280px]'/>
                 </div>
-                <div>
-                    <img src={profile1} alt="" className='w-[320px] h-[250px]'/>
-                </div>
-                <div>
-                    <img src={profile1} alt="" className='w-[320px] h-[250px]'/>
-                </div>
+                
             </div>
         </div>
     </div>

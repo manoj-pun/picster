@@ -29,6 +29,14 @@ const Stories = () => {
           <img src={profile5} alt="" className='w-[70px] h-[70px] rounded-full object-cover mb-2 cursor-pointer'/>
           <span className="text-sm cursor-pointer">sakura1</span>
         </div>
+        <div className="flex flex-col items-center">
+          <img src={profile1} alt="" className='w-[70px] h-[70px] rounded-full object-cover mb-2 cursor-pointer'/>
+          <span className="text-sm cursor-pointer">naruto</span>
+        </div>
+        <div className="flex flex-col items-center">
+          <img src={profile1} alt="" className='w-[70px] h-[70px] rounded-full object-cover mb-2 cursor-pointer'/>
+          <span className="text-sm cursor-pointer">naruto</span>
+        </div>
       </div>
     </div>
 

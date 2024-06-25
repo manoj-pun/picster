@@ -5,6 +5,7 @@ import like from "../Images/heart.png"
 import comment from "../Images/comment.png"
 import send from "../Images/send.png"
 import save from "../Images/save.png"
+import { Link } from "react-router-dom"
 
 const Feed = () => {
   return (
@@ -12,8 +13,8 @@ const Feed = () => {
       <div className='profile-container font-sans mb-6'>
         <div className=' flex mb-4'>
           <div className='flex items-center cursor-pointer'>
-            <img src={profile} alt="" className='w-10 h-10 rounded-full object-cover ml-2' />
-            <h1 className='ml-2 mr-2 font-semibold'>manojpun</h1>
+            <Link to="/Profile"><img src={profile} alt="" className='w-10 h-10 rounded-full object-cover ml-2' /></Link>
+            <Link to="Profile"><h1 className='ml-2 mr-2 font-semibold'>manojpun</h1></Link>
             <p className='daysSinceUpload'> &#183; 5d</p>
           </div>
           <div className='ml-72 cursor-pointer'>
