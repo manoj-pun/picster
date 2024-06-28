@@ -90,3 +90,19 @@ body{
     row-gap: 5px;
 } 
 
+.login-container{
+    border: 1px solid rgb(194, 191, 191);
+}
+
+.username,
+.password{
+    border: 1px solid rgb(194, 191, 191);
+}
+.username::placeholder,
+.password::placeholder {
+    font-size: 12px;
+}
+
+.signup-link{
+    border: 1px solid rgb(194, 191, 191)
+}
