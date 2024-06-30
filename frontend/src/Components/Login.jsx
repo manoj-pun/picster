@@ -5,6 +5,8 @@ import googleStore from "../Images/c5Rp7Ym-Klz.png"
 import appleStore from "../Images/Yfc020c87j0.png" 
 import "../CSS/style.css"
 import sc1 from "../Images/screenshot1-2x.png"
+import { Link } from 'react-router-dom'
+
 
 
 
@@ -29,13 +31,13 @@ const Login = () => {
                     <button className='bg-blue-400 text-white w-64 font-bold py-1 rounded-lg'>Log In</button>
                 </div>
                 <div className='mx-auto'>
-                    <span className='text-blue-900 text-sm cursor-pointer'>Forget Password ?</span>
+                    <Link to="/passwordreset"><span className='text-blue-900 text-sm cursor-pointer'>Forget Password ?</span></Link>
                 </div>
             </div>
 
             <div className="signup-link mt-14 p-4 mb-2 rounded-sm">
                 <span>Don't have an account?</span>
-                <span className='text-blue-600 font-semibold ml-2 cursor-pointer'>Sign up</span>
+                <Link to="/SignUp" ><span className='text-blue-600 font-semibold ml-2 cursor-pointer'>Sign up</span></Link>
             </div>
 
             <div>

@@ -48,7 +48,8 @@ body{
     color: black;
 }
 
-.profile-header{
+.profile-header,
+.password-reset-logo{
     border: 1px solid #c2bfbf;
     border-left: none;
     border-top: none;
@@ -90,19 +91,43 @@ body{
     row-gap: 5px;
 } 
 
-.login-container{
+.login-container,
+.signup-form{
     border: 1px solid rgb(194, 191, 191);
 }
 
 .username,
-.password{
+.password,
+.fullname,
+.email{
     border: 1px solid rgb(194, 191, 191);
 }
 .username::placeholder,
-.password::placeholder {
-    font-size: 12px;
+.password::placeholder,
+.email::placeholder,
+.fullname::placeholder {
+    font-size: 14px;
 }
 
-.signup-link{
+.signup-link,
+.login-link,
+.password-reset-container,
+.back-to-login-button{
     border: 1px solid rgb(194, 191, 191)
 }
+
+.signup-button{
+    text-align: center;
+    padding: 4px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+}
+
+.text-color{
+    color: rgba(115, 115, 115, 1);
+}
+
+/* .send-login-link-button{
+
+} */
